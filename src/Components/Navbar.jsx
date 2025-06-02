@@ -1,8 +1,8 @@
 import React from 'react'
 import leftarrow from '../assets/image/png/Vector 618.png'
 import rightaroow from '../assets/image/png/Vector 619.png'
-// import logo_img from '../assets/image/svg/logo image.svg'
-// import search_img from '../assets/image/svg/search+img.svg'
+import logo_img from '../assets/image/svg/logo image.svg'
+import search_img from '../assets/image/svg/search+img.svg'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <img className='w-3' src={rightaroow} alt="" />
                 </div>
             </div>
-            {/* <div className='my_container'>
+            <div className='my_container'>
                 <div className='flex item-center justify-between py-5'>
                     <img className='w-5' src={search_img} alt="" />
                     <NavLink className='text-2xl' to='/'>Home</NavLink>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <NavLink className='text-2xl' to='/about'>About</NavLink>
                     <NavLink className='text-2xl' to='/Contact'>Contact</NavLink>
                 </div>
-            </div> */}
+            </div>
         </>
     )
 }

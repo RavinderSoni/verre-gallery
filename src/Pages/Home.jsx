@@ -3,35 +3,35 @@ import React from 'react'
 import Card from '../Components/Card';
 import Dilivery from '../Components/Dilivery';
 import Footer from '../Components/Footer';
-import feature_img from '../assets/image/svg/Feature_img.svg'
-import star from '../assets/image/svg/Star 7.svg'
-import Dare_1 from '../assets/image/svg/Dare_1.svg'
-import Dare_2 from '../assets/image/svg/Dare_2.svg'
-import Dare_3 from '../assets/image/svg/Dare_3.svg'
-import Dare_4 from "../assets/image/svg/Dare_4.svg"
-import Dare_5 from "../assets/image/svg/Dare_5.svg"
-import timeless from '../assets/image/svg/timeless_1.svg'
-import timeless_2 from '../assets/image/svg/timeless_2.svg'
+// import feature_img from '../assets/image/svg/Feature_img.svg'
+// import star from '../assets/image/svg/Star 7.svg'
+// import Dare_1 from '../assets/image/svg/Dare_1.svg'
+// import Dare_2 from '../assets/image/svg/Dare_2.svg'
+// import Dare_3 from '../assets/image/svg/Dare_3.svg'
+// import Dare_4 from "../assets/image/svg/Dare_4.svg"
+// import Dare_5 from "../assets/image/svg/Dare_5.svg"
+// import timeless from '../assets/image/svg/timeless_1.svg'
+// import timeless_2 from '../assets/image/svg/timeless_2.svg'
 
-import catalogues_1 from '../assets/image/svg/Catalogues_1.svg'
-import catalogues_2 from '../assets/image/svg/Catalogues_2.svg'
-import catalogues_3 from '../assets/image/svg/Catalogues_3.svg'
-import catalogues_4 from '../assets/image/svg/Catalogues_4.svg'
-import Slidercard from '../Components/Slidercard.jsx'
-import Coustmer from '../Components/Coustmer.jsx';
-import img_1 from '../assets/image/svg/Group 4380.svg'
-import img_2 from '../assets/image/svg/Group 4381.svg'
-import img_3 from '../assets/image/svg/Group 4382.svg'
-import img_4 from '../assets/image/svg/Group 4383.svg'
+// import catalogues_1 from '../assets/image/svg/Catalogues_1.svg'
+// import catalogues_2 from '../assets/image/svg/Catalogues_2.svg'
+// import catalogues_3 from '../assets/image/svg/Catalogues_3.svg'
+// import catalogues_4 from '../assets/image/svg/Catalogues_4.svg'
+// import Slidercard from '../Components/Slidercard.jsx'
+// import Coustmer from '../Components/Coustmer.jsx';
+// import img_1 from '../assets/image/svg/Group 4380.svg'
+// import img_2 from '../assets/image/svg/Group 4381.svg'
+// import img_3 from '../assets/image/svg/Group 4382.svg'
+// import img_4 from '../assets/image/svg/Group 4383.svg'
 
 
 
 const Home = () => {
   return (
     <>
-      <Slidercard />
+      {/* <Slidercard /> */}
       {/* ------------------- slider -------------------- */}
-      <Card
+      {/* <Card
         img_1={img_1}
         img_2={img_2}
         img_3={img_3}
@@ -49,7 +49,7 @@ const Home = () => {
         rating_2='6.8k'
         rating_3='4.8k'
         rating_4='8.5k'
-      />
+      /> */}
 
 
 
@@ -58,7 +58,7 @@ const Home = () => {
 
 
       {/* ----------------------------- dare to dream, we do the rest -------------------------- */}
-      <section className='mt-12 pt-12'>
+      {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
           <div className='flex items-center justify-between'>
             <div className='flex items-center gap-5'>
@@ -113,7 +113,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
         {/* <div className='Dare_1 flex items-end  h-full '>
             <div>
               <p className='text-white'>BASIN</p>
@@ -122,7 +122,7 @@ const Home = () => {
           </div> */}
 
       {/* ------------------------------- TIMELESS GLASSWORKS ----------------------------- */}
-      <section className='mt-12 pt-12'>
+      {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
           <div className='flex items-center justify-between'>
             <div className='w-5/12 px-[12px]'>
@@ -150,9 +150,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* -------------------------- OUR CATALOGUES---------------------- */}
-      <section className='mt-12 pt-12'>
+      {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
           <div className='flex items-center justify-between'>
             <div className='w-4/12 px-[12px]'>
@@ -188,9 +188,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* --------------------------------- Future section -------------------------------- */}
-      <section className='mt-12 pt-12'>
+      {/* <section className='mt-12 pt-12'>
         <div className='future_bg'>
           <div className='my_container'>
             <div className='w-6/12 px-[12px]'>
@@ -209,10 +209,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Coustmer />
       {/* -------------- Perfectly controlled ----------------------- */}
-      <section className='mt-12 pt-12'>
+      {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
           <div className='bg-[#F8F8F8] p-[20px]'>
             <div className='flex items-center justify-between'>
@@ -235,11 +235,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* ------------------ our newletter -------------------- */}
-      <section className=' mt-12 pt-12'>
+      {/* <section className=' mt-12 pt-12'>
         <div className='my_container'>
           <div className='text-center'>
             <div className='flex items-center justify-center gap-4'>
@@ -260,11 +260,11 @@ const Home = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
 
 
-      <Dilivery />
+      {/* <Dilivery /> */}
       <Footer />
     </>
   )
