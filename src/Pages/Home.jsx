@@ -114,12 +114,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-        {/* <div className='Dare_1 flex items-end  h-full '>
+        <div className='Dare_1 flex items-end  h-full '>
             <div>
               <p className='text-white'>BASIN</p>
               <button className='bg-[#009DD9] py-[8px] px-[40px] uppercase'>View Products</button>
             </div>
-          </div> */}
+          </div>
 
       {/* ------------------------------- TIMELESS GLASSWORKS ----------------------------- */}
       {/* <section className='mt-12 pt-12'>
