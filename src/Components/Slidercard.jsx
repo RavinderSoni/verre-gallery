@@ -8,21 +8,21 @@ import { Link } from "react-router-dom";
 
 
 export default function SimpleSlider() {
-    // var settings = {
-    //     dots: false,
-    //     infinite: true,
-    //     speed: 500,
-    //     // slidesToShow: 1,
-    //     // slidesToScroll: 1,
-    //     // autoplay: true,
-    //     // autoplaySpeed: 1000, // 2 seconds
-    //     // fade: true,
-    // };
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000, // 2 seconds
+        // fade: true,
+    };
     return (
         <>
             <div>
                 <Navbar />
-                {/* <Slider {...settings}>
+                <Slider {...settings}>
                     {Array(5)
                         .fill()
                         .map((_, index) => (
@@ -50,7 +50,7 @@ export default function SimpleSlider() {
                             </div>
                         ))
                     }
-                </Slider> */}
+                </Slider>
             </div>
         </>
     );
