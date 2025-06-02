@@ -210,7 +210,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <Coustmer />
+      {/* <Coustmer /> */}
       {/* -------------- Perfectly controlled ----------------------- */}
       {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
