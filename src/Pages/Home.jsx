@@ -1,24 +1,25 @@
 import React from 'react'
 // import Navbar from '../Components/Navbar'
 import Card from '../Components/Card';
+import Coustmer from '../Components/Coustmer.jsx';
 import Dilivery from '../Components/Dilivery';
 import Footer from '../Components/Footer';
 // import feature_img from '../assets/image/svg/Feature_img.svg'
-// import star from '../assets/image/svg/Star 7.svg'
+import star from '../assets/image/svg/Star 7.svg'
 // import Dare_1 from '../assets/image/svg/Dare_1.svg'
 // import Dare_2 from '../assets/image/svg/Dare_2.svg'
 // import Dare_3 from '../assets/image/svg/Dare_3.svg'
 // import Dare_4 from "../assets/image/svg/Dare_4.svg"
 // import Dare_5 from "../assets/image/svg/Dare_5.svg"
-// import timeless from '../assets/image/svg/timeless_1.svg'
-// import timeless_2 from '../assets/image/svg/timeless_2.svg'
+import timeless from '../assets/image/svg/timeless_1.svg'
+import timeless_2 from '../assets/image/svg/timeless_2.svg'
 
-// import catalogues_1 from '../assets/image/svg/Catalogues_1.svg'
-// import catalogues_2 from '../assets/image/svg/Catalogues_2.svg'
-// import catalogues_3 from '../assets/image/svg/Catalogues_3.svg'
-// import catalogues_4 from '../assets/image/svg/Catalogues_4.svg'
+import catalogues_1 from '../assets/image/svg/Catalogues_1.svg'
+import catalogues_2 from '../assets/image/svg/Catalogues_2.svg'
+import catalogues_3 from '../assets/image/svg/Catalogues_3.svg'
+import catalogues_4 from '../assets/image/svg/Catalogues_4.svg'
 // import Slidercard from '../Components/Slidercard.jsx'
-// import Coustmer from '../Components/Coustmer.jsx';
+
 // import img_1 from '../assets/image/svg/Group 4380.svg'
 // import img_2 from '../assets/image/svg/Group 4381.svg'
 // import img_3 from '../assets/image/svg/Group 4382.svg'
@@ -50,13 +51,6 @@ const Home = () => {
         rating_3='4.8k'
         rating_4='8.5k'
       /> */}
-
-
-
-
-
-
-
       {/* ----------------------------- dare to dream, we do the rest -------------------------- */}
       {/* <section className='mt-12 pt-12'>
         <div className='my_container'>
@@ -114,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-        {/* <div className='Dare_1 flex items-end  h-full '>
+      {/* <div className='Dare_1 flex items-end  h-full '>
             <div>
               <p className='text-white'>BASIN</p>
               <button className='bg-[#009DD9] py-[8px] px-[40px] uppercase'>View Products</button>
@@ -122,16 +116,15 @@ const Home = () => {
           </div> */}
 
       {/* ------------------------------- TIMELESS GLASSWORKS ----------------------------- */}
-      {/* <section className='mt-12 pt-12'>
+      <section className='mt-12 pt-12'>
         <div className='my_container'>
-          <div className='flex items-center justify-between'>
-            <div className='w-5/12 px-[12px]'>
+          <div className='flex items-center justify-center lg:justify-between flex-wrap flex-col-reverse lg:flex-row'>
+            <div className='w-12/12 sm:w-12/12 lg:w-5/12 px-[12px] text-center lg:text-start'>
               <div>
-                <div className='flex items-center gap-2'>
+                <div className='flex items-center justify-center lg:justify-start gap-2'>
                   <img src={star} alt="" />
                   <p className='text-[20px]'>TIMELESS GLASSWORKS</p>
                 </div>
-
                 <p className='text-[30px] mt-3'>Artistry in Glass, <br />
                   Elevating Your Spaces</p>
                 <p className='text-[20px] mt-4'>We specialize in creating exquisite glass basins and accessories for
@@ -142,7 +135,7 @@ const Home = () => {
                 <button className='bg-[#009DD9] px-[90px] py-[8px] text-white inline-block mt-8'>ABOUT US</button>
               </div>
             </div>
-            <div className='w-4/12 px-[12px] relative'>
+            <div className='w-10/12 sm:w-6/12 lg:w-4/12 px-[12px] relative '>
               <div>
                 <img className='w-full' src={timeless} alt="" />
               </div>
@@ -150,12 +143,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+
       {/* -------------------------- OUR CATALOGUES---------------------- */}
-      {/* <section className='mt-12 pt-12'>
+      <section className='mt-12 pt-12'>
         <div className='my_container'>
-          <div className='flex items-center justify-between'>
-            <div className='w-4/12 px-[12px]'>
+          <div className='flex items-center justify-between flex-wrap'>
+            <div className='w-12/12 sm:w-6/12 lg:w-4/12 px-[12px] order-2 lg:order-1 mt-12 lg:mt-0'>
               <div>
                 <img src={catalogues_1} alt="" />
               </div>
@@ -163,7 +157,7 @@ const Home = () => {
                 <img src={catalogues_2} alt="" />
               </div>
             </div>
-            <div className='w-4/12 px-[12px]'>
+            <div className='w-12/12 lg:w-4/12 px-[12px] order-1 lg:order-2'>
               <div className='flex items-center justify-center flex-col text-center'>
                 <div className='flex items-center gap-6'>
                   <img className='w-[10%]' src={star} alt="" />
@@ -178,7 +172,7 @@ const Home = () => {
                 <button className='bg-[#009DD9] py-[10px] px-[80px] text-white inline-block mt-9'>EXPLORE</button>
               </div>
             </div>
-            <div className='w-4/12 px-[12px]'>
+            <div className='w-12/12 sm:w-6/12 lg:w-4/12 px-[12px] order-3 lg:order-3 mt-12 lg:mt-0 '>
               <div>
                 <img src={catalogues_3} alt="" />
               </div>
@@ -188,7 +182,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* --------------------------------- Future section -------------------------------- */}
       {/* <section className='mt-12 pt-12'>
         <div className='future_bg'>
@@ -210,7 +204,7 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      {/* <Coustmer /> */}
+      <Coustmer />
       {/* -------------- Perfectly controlled ----------------------- */}
       {/* <section className='mt-12 pt-12'>
         <div className='my_container'>

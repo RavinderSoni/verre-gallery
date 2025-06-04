@@ -11,8 +11,8 @@ const Coustmer = () => {
                     <div className='text-center'>
                         <p className='text-[60px]'>Hear from Our Satisfied Customers</p>
                     </div>
-                    <div className='flex items-center justify-between mt-12'>
-                        <div className='w-3/12 px-[12px]'>
+                    <div className='flex items-center justify-center lg:justify-between flex-wrap mt-12'>
+                        <div className='w-11/12 sm:w-6/12 lg:w-3/12 px-[12px]'>
                             <p>"I was blown away by the quality and
                                 elegance of my glass basin. It’s the perfect
                                 center piece for my bathroom, and the
@@ -28,10 +28,10 @@ const Coustmer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='lg:block hidden'>
                             <img className='w-[70%]' src={star} alt="" />
                         </div>
-                        <div className='w-3/12 px-[12px]'>
+                        <div className='w-11/12 sm:w-6/12 lg:w-3/12 px-[12px] mt-19  sm:mt-0'>
                             <p>"The glass countertop exceeded my
                                 expectations! It’s durable, easy to maintain,
                                 and adds a modern touch to my kitchen.
@@ -47,10 +47,10 @@ const Coustmer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='lg:block hidden'>
                             <img className='w-[70%]' src={star} alt="" />
                         </div>
-                        <div className='w-3/12 px-[12px]'>
+                        <div className='w-11/12 sm:w-6/12 lg:w-3/12 px-[12px] mt-19 lg:mt-0'>
                             <p>"From ordering to installation, the entire
                                 experience was seamless. The basin is
                                 stunning, and the customer service
