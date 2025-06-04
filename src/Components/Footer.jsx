@@ -36,9 +36,9 @@ const Footer = () => {
                                 <p className='mt-2 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Monday - Friday <br /> 8:00am - 5:00pm EST</p>
                             </div>
                         </div>
-                        <div className='w-12/12 sm:w-6/12 lg:w-2/12 px-3 sm:mt-0 mt-12 text-center sm:text-start'>
+                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 sm:mt-0 mt-12 text-center sm:text-start'>
                             <div className=''>
-                                <p className='text-2xl  font-medium'>SHOP BY CATEGORY</p>
+                                <p className='text-2xl  font-medium '>SHOP BY CATEGORY</p>
                                 <p className='mt-8 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Basin</p>
                                 <p className='mt-5 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Pedestal</p>
                                 <p className='mt-5 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Undermount</p>

@@ -264,7 +264,7 @@ const Home = () => {
 
 
 
-      {/* <Dilivery /> */}
+      <Dilivery />
       <Footer />
     </>
   )
