@@ -13,11 +13,11 @@ const Footer = () => {
             <section className='py-[60px]'>
                 <div className='my_container'>
                     <div className='flex justify-between flex-wrap'>
-                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 text-center sm:text-start' >
+                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 ' >
                             <div>
                                 <img className='w-full' src={logo_img} alt="" />
                             </div>
-                            <div className='flex items-center gap-5 mt-8 justify-center sm:justify-start'>
+                            <div className='flex items-center gap-5 mt-8 justify-start'>
                                 <img className='w-[8%]' src={facebook} alt="" />
                                 <img className='w-[8%]' src={instagram} alt="" />
                                 <img className='w-[8%]' src={youtube} alt="" />
@@ -36,7 +36,7 @@ const Footer = () => {
                                 <p className='mt-2 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Monday - Friday <br /> 8:00am - 5:00pm EST</p>
                             </div>
                         </div>
-                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 sm:mt-0 mt-12 text-center sm:text-start'>
+                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 sm:mt-0 mt-12'>
                             <div className=''>
                                 <p className='text-2xl  font-medium '>SHOP BY CATEGORY</p>
                                 <p className='mt-8 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Basin</p>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <p className='mt-5 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Custom</p>
                             </div>
                         </div>
-                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 lg:mt-0 mt-12 text-center sm:text-start'>
+                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 lg:mt-0 mt-12 '>
                             <div>
                                 <p className='text-2xl font-medium'>QUICK LINKS</p>
                                 <p className='mt-8 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>About</p>
@@ -58,7 +58,7 @@ const Footer = () => {
                                 <p className='mt-5 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Terms & Conditions</p>
                             </div>
                         </div>
-                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 lg:mt-0 mt-12 text-center sm:text-start'>
+                        <div className='w-12/12 sm:w-6/12 lg:w-3/12 px-3 lg:mt-0 mt-12 '>
                             <div>
                                 <p className='text-2xl font-medium'>ADDRESS</p>
                                 <p className='mt-8 text-1xl text-[#6D6D6D] font-medium cursor-pointer'>Manufacturing Plant:</p>
@@ -70,17 +70,14 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='mt-12 flex items-center flex-wrap justify-between'>
-                        <div className=' w-6/12 sm:w-4/12  flex items-center justify-center sm:justify-start'>
+                        <div className=' w-6/12 sm:w-4/12  flex items-center  sm:justify-start'>
                             <div>
                                 <img src={footer_flag} alt="" />
                             </div>
 
                         </div>
-                        <div className='w-6/12 sm:w-4/12 text-center  sm:text-start'>
-                         
-                                <p>© 2025 - VERRE GALLERY by Renaissance Glassworks Inc.</p>
-                         
-
+                        <div className='w-6/12 sm:w-4/12 '>
+                            <p>© 2025 - VERRE GALLERY by Renaissance Glassworks Inc.</p>
                         </div>
                         <div className='w-12/12 sm:w-4/12 sm:mt-0 mt-12'>
                             <div>
